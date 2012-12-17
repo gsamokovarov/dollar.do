@@ -1,5 +1,5 @@
 !function($) {
-  $.fn.do = function(callback, args) {
+  $.fn['do'] = function(callback, args) {
     callback.apply(this, args);
     return this;
   };
